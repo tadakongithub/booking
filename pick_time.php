@@ -71,7 +71,7 @@
 </tr>
 
 <tr>
-    <td>10時</td>
+    <td>10AM</td>
     <?php foreach ($orders as $val) :?>
     <td>
     <?php if($val['10_user'] == 'A'):?>
@@ -84,7 +84,7 @@
 </tr>
 
 <tr>
-    <td>11時</td>
+    <td>11AM</td>
     <?php foreach ($orders as $val) :?>
     <td>
     <?php if($val['11_user'] == 'A'):?>
@@ -97,7 +97,7 @@
 </tr>
 
 <tr>
-    <td>12時</td>
+    <td>12AM</td>
     <?php foreach ($orders as $val) :?>
     <td>
     <?php if($val['12_user'] == 'A'):?>
@@ -110,7 +110,7 @@
 </tr>
 
 <tr>
-    <td>13時</td>
+    <td>13AM</td>
     <?php foreach ($orders as $val) :?>
     <td>
     <?php if($val['13_user'] == 'A'):?>

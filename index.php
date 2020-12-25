@@ -53,7 +53,7 @@ echo $_SESSION['time'];
 <div class="top centered-block">
   <div class="top-div">
     <h1>Programming X English. Sky is Your Limit.</h1>
-    <p>At TADA Tech, you can learn both programming and English. With these two skills, you can work freely not only in Japan but anywhere in the world!</p>
+    <p>At TADA Tech, you can learn both programming and English. With these two skills, you can work freely as a web developer anywhere in the world!</p>
     <button onclick="location.href = 'pick-subject.php';" class="top-book-btn">BOOK A CLASS</button>
   </div>
   <div class="top-div" id="top-img-div"><img src="img/top.jpg" class="top-img"></div>

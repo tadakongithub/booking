@@ -1,6 +1,5 @@
 <?php
 
-
 session_start();
 
 require 'db.php';
@@ -13,12 +12,10 @@ if(!isset($_SESSION['subject'])){
     header('Location: index.php');
 }
 
-
 $user_id = $_SESSION['id'];
 $date = $_SESSION['date'];
 $time = $_SESSION['time'];
 $subject = $_SESSION['subject'];
-
 
 $stmt = $db->query("SELECT * FROM booking_user WHERE id = $user_id");
 
